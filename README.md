@@ -14,11 +14,11 @@ To access this project on your local files, you can clone it using these steps
 1. This will clone the repositoty into your local folder
 1. __Enjoy :)__
 ### BDD
-Title: Delani Studio.
+Title: Mickey's Pizzeria.
 
 As the Developer,
-I want the Application to display the description of the services the website offers on clicking the services icon on design,development and project management.
- The page has a contacts form that should be able to collect the visitors data i.e the name and email and also any other info they would like to key in like feedback.
+I want the Application to display the description of the services the website offers.Clients should be able to make orders on the kind of pizza they would like to buy.The client should be able to choose the amount,size and kind of toppings they want on the pizza and also if they would like it delivered to them.
+The page  should be responsive on all types of devices used by the clients..
 
 ### Technologies Used
 1. HTML
@@ -27,7 +27,7 @@ I want the Application to display the description of the services the website of
 1. Bootstrap
 1. Git
 ### Live Site
-View [live](https://mikmondi.github.io/Project-Delani-Studio/)
+View [live](https://mikmondi.github.io/Mickey-s-pizzeria/)
 ### Licence
 This project is under the  [MIT](LICENSE) licence
 
