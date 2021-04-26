@@ -1,0 +1,30 @@
+body{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+        
+}
+.custom2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 65%;
+    background-color: rgb(156, 9, 21);
+    border: 5px solid rgb(187, 185, 185);
+    opacity: 0.8;
+    border-radius: 5px;
+    border-bottom: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    color: antiquewhite;
+}
+.custom3{
+    text-align: center;
+    font-size: xxx-large;
+    background-color: rgb(231, 132, 40);
+    border: 5px solid rgb(187, 185, 185);
+    opacity: 0.8;
+    border-radius: 5px;
+    margin-top: 0%;  
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
