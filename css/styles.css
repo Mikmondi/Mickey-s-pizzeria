@@ -2,7 +2,24 @@ body{
     display: flexbox;
     justify-content: center;
     align-items: center;
-        
+    background-color: bisque;
+     
+}
+.custom{
+    background-image: url("/image/Hawwai.jpg");
+    background-size: cover;
+    flex-direction: column;
+    text-align: center;
+    color: antiquewhite;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5%;
+    padding-bottom: 15%;
+
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0%;
 }
 .custom2{
     display: flex;
@@ -27,4 +44,6 @@ body{
     margin-top: 0%;  
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
+    color: antiquewhite;
+    margin-bottom: 0%;
 }
