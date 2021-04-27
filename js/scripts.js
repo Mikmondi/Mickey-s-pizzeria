@@ -17,3 +17,16 @@ function Crust(italianThin,americanHandTossed,panPizza){
     this.americanHandTossed = 60;
     this.panPizza = 50;
 }
+
+$(document).ready(function() {
+    $(".billing").submit(function(event) {
+        var pizzaName = $("#size").val(); 
+        $(".nameEnt").text(pizzaName);
+        var pizzaTopping = $("#topping").val();
+        $(".nameTop").text(pizzaTopping);
+        var pizzaCrust = $("#crust").val(); 
+        $(".nameCru").text(pizzaCrust);
+        $(".alert").show();
+        event.preventDefault();
+    }); 
+  });
