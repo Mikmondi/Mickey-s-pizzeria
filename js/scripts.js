@@ -1,4 +1,10 @@
 //Business Logic
+function PizzaOrder(pizza,toppings,crust){
+    this.pizza = pizza;
+    this.toppings = toppings;
+    this.crust = crust;
+}
+
 var pizza = {small: 650, medium:850, regular:1200 };
 var toppings = {pepperoni:80 ,pineapples:60, cheese:100}
 var crust = {italianThin:70, americanHandTossed:60 ,panPizza:50}
