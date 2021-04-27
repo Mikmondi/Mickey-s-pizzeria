@@ -58,3 +58,6 @@ img{
     padding: 20px;
     
 }
+.alert{
+    display: none;
+}
