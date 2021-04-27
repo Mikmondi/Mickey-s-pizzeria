@@ -1,22 +1,7 @@
 //Business Logic
-var small = 650;
-var medium = 850;
-var large = 1200;
-function Pizza(small,medium,regular){
-    this.small = 650;
-    this.medium = 850;
-    this.large = 1200;
-}
-function Toppings(pepperoni,pineapples,cheese){
-    this.pepperoni = 80;
-    this.pineapples = 60;
-    this.cheese = 100;
-}
-function Crust(italianThin,americanHandTossed,panPizza){
-    this.italianThin = 70;
-    this.americanHandTossed = 60;
-    this.panPizza = 50;
-}
+var pizza = {small: 650, medium:850, regular:1200 };
+var toppings = {pepperoni:80 ,pineapples:60, cheese:100}
+var crust = {italianThin:70, americanHandTossed:60 ,panPizza:50}
 
 $(document).ready(function() {
     $(".billing").submit(function(event) {
