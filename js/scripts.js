@@ -26,6 +26,8 @@ $(document).ready(function() {
         $(".nameTop").text(pizzaTopping);
         var pizzaCrust = $("#crust").val(); 
         $(".nameCru").text(pizzaCrust);
+        var pizzaTotal = $("#total").val();
+        $()
         $(".alert").show();
         event.preventDefault();
     }); 
