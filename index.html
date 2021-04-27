@@ -26,15 +26,40 @@
 
     <div class="container">
         <div class="row">
+            <form class="form-row billing">
             <div class="col-md-4">
                 <img src="image/hawaian.jpg" height="250px" width="250px">
                 <h4>Hawaiian Pizza</h4>
                 <h5><em>Beef Ham & Pineapples</em></h5>
             </div>
-            <div class="col-md-2"></div>
-            <div class="col-md-2"></div>
-            <div class="col-md-2"></div>
-            <div class="col-md-2"></div>
+            <div class="col-md-2">
+                <label class="control-label fs14">Pizza Size</label>
+					<select id="outcome" class="form-control fs11">
+						<option value="small">Small</option>
+						<option value="medium">Medium</option>
+						<option value="large">Large</option>
+					</select>
+            </div>
+            <div class="col-md-2">
+                <label class="control-label fs14">Toppings</label>
+					<select id="outcome" class="form-control fs11">
+						<option value="pepperoni">Pepperoni</option>
+						<option value="pineapples">Pineapples</option>
+						<option value="cheese">Cheese</option>
+					</select>
+            </div>
+            <div class="col-md-2">
+                <label class="control-label fs14">Crust</label>
+					<select id="outcome" class="form-control fs11">
+						<option value="italian thin">Italian Thin</option>
+						<option value="american hand tossed">American Hand Tossed</option>
+						<option value="pan pizza">Pan Pizza</option>
+					</select>
+            </div>
+            <div class="col-md-2">
+                <button type="submit" class="btn btn-sm btn-block btn-success">Buy!</button>
+            </div>
+            </form>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
